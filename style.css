@@ -151,3 +151,62 @@ header {
     border-radius: 10px;
     margin: 30px;
 }
+
+/*----- 
+player cards style 
+-------*/
+
+.section-display {
+    display: flex;
+}
+
+.player-cards {
+    width: 312px;
+    height: 362px;
+
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+
+.thumbnail img {
+    width: 312px;
+    height: 175px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.player-card-detail {
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.player-card-detail button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: #161616;
+    background-color: #FFFFFF;
+
+}
+
+.player-card-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #161616;
+}
+
+.player-card-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.player-card-duration {
+    color: rgb(120, 119, 119);
+    display: flex;
+    align-items: center;
+    margin-right: 120px;
+}
