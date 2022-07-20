@@ -95,7 +95,10 @@ header {
     margin: 50px 139px 140px 130px;
 }
 
-.section-display {}
+.section-display {
+    display: flex;
+}
+
 
 .section-link {
     width: 270px;
@@ -163,9 +166,6 @@ header {
 player cards style 
 -------*/
 
-.section-display {
-    display: flex;
-}
 
 .player-cards {
     display: grid;
@@ -224,6 +224,59 @@ player cards style
     margin-right: 120px;
 }
 
+/*------- player cards style end-------- */
+
+/*----- upcoming match design start ------*/
+
+.upcoming-match {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.upcoming-match-detail {
+    width: 250px;
+    height: 242px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    margin: 0 0 24px 24px;
+}
+
+.team {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+    padding-left: 20px;
+}
+
+.upcoming-match-info {
+    text-align: center;
+    padding-right: 10px;
+}
+
+#upcoming-match-blog {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #161616;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+#upcoming-match-time {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #4D4D4D;
+}
+
+/* ----upcoming match design ends---- */
+
+/* -----footer design start----------- */
 footer {
     position: absolute;
     width: 100%;
@@ -236,6 +289,10 @@ footer {
     background: #161616;
 
 
+}
+
+.upcoming-match-footer {
+    top: 1500px;
 }
 
 footer h2 {
@@ -271,3 +328,20 @@ footer hr {
     text-decoration: none;
     color: #B9B9B9;
 }
+
+/* -----------
+    Media Queries
+    ------------------ */
+
+/* Mobile Devices */
+/* @media only screen and ( max-width : 688px) {
+    /* .header-top {
+        width: 100%;
+    } */
+
+/* .header-text {
+        color: #DD0000;
+        grid-template-columns: repeat(1, 1fr); */
+/* }
+
+} */
