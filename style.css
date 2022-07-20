@@ -74,3 +74,80 @@ header {
 
 
 }
+
+/* header style ends */
+
+/* --------------
+    Section stylesheet 
+    -----------------------*/
+
+.section-top {
+    position: absolute;
+    width: 1100px;
+    padding-top: 750px;
+    margin: 50px 139px 140px 130px;
+}
+
+.section-display {}
+
+.section-link {
+    width: 270px;
+    height: 270px;
+    background: #161616;
+    border-radius: 10px;
+}
+
+#upcoming-match-design {
+    width: 200px;
+    height: 64px;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+#upcoming-match-design a {
+
+    text-decoration: none;
+    background-color: #FFFFFF;
+    color: black;
+    font-weight: 600;
+    padding: 13px 15px;
+    border-radius: 10px;
+
+}
+
+#all-group-design {
+    width: 200px;
+    height: 64px;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 15px;
+}
+
+#all-group-design a {
+    text-decoration: none;
+    background-color: #FFFFFF;
+    color: black;
+    font-weight: 600;
+    padding: 10px 50px;
+    border-radius: 10px;
+    margin: 30px 0px 30px 20px;
+}
+
+#blog-design {
+    width: 200px;
+    height: 64px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 5px;
+}
+
+#blog-design a {
+    text-decoration: none;
+    background-color: #DD0000;
+    color: white;
+    font-weight: 500;
+    padding: 10px 70px;
+    border-radius: 10px;
+    margin: 30px;
+}
